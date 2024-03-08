@@ -1,0 +1,6 @@
+DB_NAME=starpenzudb
+DB_USER=starpenzuuser
+DB_PASS=Optimust19.
+DJANGO_SECRET_KEY=qmwnebrvtcyxuziaospdfghjkl
+DJANGO_ALLOWED_HOSTS=starpenzu.tech
+

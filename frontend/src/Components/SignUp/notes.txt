@@ -1,0 +1,12 @@
+To Do
+
+
+
+
+- btn state / loading
+
+
+Done
+-Sign up -Login  - protected routing -Reset pword  - get user info to dash board - course card - Landing page
+- Subscribe - notification
+

@@ -1,0 +1,635 @@
+.signup{
+    margin-top: 60px;
+    text-align: center;
+    padding: 0px 32px 50px 32px;
+}
+
+.validationsec{
+    font-family: Poppins;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 10px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.genderSelect{
+    position: absolute;
+    right: 0;
+    top: 54px;
+    z-index: 100;
+    border-radius: 15px;
+    border: 1px solid #000;
+    background: #FFF;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+    list-style: none;
+    text-align: left;
+    padding: 15px 0;
+    font-family: Poppins;
+    color: #000;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.genderSelect li{
+    padding: 7px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.genderSelect li:hover{
+    background-color: #F9B70B;
+    color: #FFFFFF;
+}
+
+.overLaySignUp{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.blackbg{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 30px;
+}
+
+.valid{
+    background: #d4d4d4;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.ssaa{
+    color: #1E1E1E;
+}
+
+.loginbtn{
+    margin-top: 90px;
+}
+
+.forgotpword{
+    width: 100%;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 5px;
+    margin-bottom: 70px;
+    color: #F9B70B;
+}
+
+.new{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.signupHeader{
+ position: relative;
+    margin-bottom: 20px;
+}
+
+.testingcent{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.backarrow img{
+    position: absolute;
+    left: 0;
+}
+
+.dhur{
+    width: 20px;
+}
+
+/*#outlined-basic{*/
+/*    width: 237.36px;*/
+/*    height: 25px;*/
+/*    border: 1px solid #000000;*/
+/*    border-radius: 10px;*/
+/*}*/
+
+
+.signupTitle{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.registerBtn{
+    font-family: clash display;
+    margin-top: 18px;
+    border: none;
+    width: 250px;
+    height: 46px;
+    background: #F9B70B;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.pword{
+    padding: 0 10px;
+    text-align: left;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    color: #d32f2f;
+}
+
+.cluse{
+    /*margin-bottom: 30px;*/
+    width: 100%;
+}
+
+/*.cluse p{*/
+/*    text-align: center;*/
+/*}*/
+
+.outlined{
+    width: 250px;
+    height: 56px;
+    font-size: 15px;
+}
+
+.already{
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.loginn{
+    color: #F9B70B;
+}
+
+
+@media (min-width: 375px){
+
+    .blackbg {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 0px 40px;
+    }
+
+    .pword{
+        padding: 0 10px;
+        text-align: left;
+        font-size: 12px;
+        font-family: Poppins;
+        font-weight: 400;
+        color: #d32f2f;
+    }
+
+    .signupHeader {
+        margin-bottom: 30px;
+    }
+    .outlined{
+        width: 300px;
+        height: 60px;
+        font-size: 15px;
+    }
+    .cluse{
+        margin-bottom: 5px;
+    }
+
+    .registerBtn {
+        font-family: clash display;
+        margin-top: 20px;
+        border: none;
+        width: 297px;
+        height: 55px;
+        background: #F9B70B;
+        border-radius: 10px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+        color: #000000;
+    }
+
+    .already {
+        margin-top: 11px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media (min-width: 425px){
+
+    .blackbg {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 0px 67px;
+    }
+
+    .outlined{
+        width: 363px;
+        height: 65px;
+        font-size: 18px;
+    }
+
+    .css-1bn86au-MuiInputBase-root-MuiOutlinedInput-root{
+        height: 60px;
+    }
+
+    .signupTitle {
+         font-weight: 500;
+         font-size: 30px;
+         line-height: 30px;
+         color: #000000;
+     }
+
+
+    .signupHeader {
+        margin-bottom: 35px;
+    }
+
+    .registerBtn {
+        font-family: clash display;
+        margin-top: 20px;
+        border: none;
+        width: 356px;
+        height: 62px;
+        background: #F9B70B;
+        border-radius: 10px;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 30px;
+        color: #000000;
+    }
+
+    .already {
+        margin-top: 16px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .signup {
+        margin-top: 98px;
+        text-align: center;
+        padding: 0px 32px 55px 32px;
+    }
+}
+
+@media (min-width: 560px){
+    .blackbg {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 0px 115px;
+    }
+
+    .signupHeader {
+        margin-bottom: 35px;
+    }
+
+    .pword {
+        text-align: left;
+        font-size: 12px;
+        font-family: Poppins;
+        font-weight: 400;
+        color: #d32f2f;
+    }
+
+    .new {
+        width: 54%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 760px){
+
+    .blackbg {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 0px 237px;
+    }
+
+    .signup {
+        margin-top: 160px;
+        text-align: center;
+        padding: 0 100px 70px 100px;
+    }
+
+    .validationsec{
+        font-family: Poppins;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: 15px;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .valid {
+        background: #d4d4d4;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .backarrow img{
+        width: 40px;
+        /*padding-right: 206px;*/
+    }
+
+    .signupHeader {
+        margin-bottom: 40px;
+    }
+
+    .forgotpword{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .signupTitle {
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 30px;
+        color: #000000;
+    }
+
+
+    .outlined {
+        width: 536px;
+        /*height: 80px;*/
+        font-size: 18px;
+    }
+
+    .registerBtn {
+        font-family: clash display;
+        margin-top: 51px;
+        border: none;
+        width: 532px;
+        height: 72px;
+        background: #F9B70B;
+        border-radius: 10px;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 30px;
+        color: #000000;
+    }
+
+    .already {
+        margin-top: 28px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .pword {
+        text-align: left;
+        font-size: 12px;
+        font-family: Poppins;
+        font-weight: 400;
+        color: #d32f2f;
+    }
+    .new {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1024px){
+
+    .blackbg {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 0px 337px;
+    }
+
+
+    .signupHeader {
+        margin-bottom: 50px;
+    }
+
+    .backarrow img {
+        width: 40px;
+        /*padding-right: 227px;*/
+    }
+
+    .outlined {
+        width: 657px;
+        /* height: 80px; */
+        font-size: 18px;
+    }
+
+    .pword {
+        text-align: left;
+        font-size: 12px;
+        font-family: Poppins;
+        font-weight: 400;
+        color: #d32f2f;
+    }
+
+    .registerBtn {
+        font-family: clash display;
+        margin-top: 51px;
+        border: none;
+        width: 640px;
+        height: 72px;
+        background: #F9B70B;
+        border-radius: 10px;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 30px;
+        color: #000000;
+    }
+
+    .already {
+        margin-top: 38px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .new {
+        width: 83%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1280px){
+
+    .blackbg {
+        background-color: white;
+        padding: 90px;
+        border-radius: 10px;
+        margin: 0px 482px;
+    }
+
+    /*.blackbg {*/
+    /*    background-color: white;*/
+    /*    padding: 20px;*/
+    /*    border-radius: 10px;*/
+    /*    margin: 0px 482px;*/
+    /*}*/
+
+    .signupTitle {
+        font-weight: 500;
+        font-size: 44px;
+        line-height: 30px;
+        color: #000000;
+    }
+
+    .outlined {
+        width: 731px;
+        /* height: 80px; */
+        font-size: 18px;
+    }
+
+    .pword {
+        text-align: left;
+        font-size: 12px;
+        font-family: Poppins;
+        font-weight: 400;
+        color: #d32f2f;
+    }
+
+    .registerBtn {
+        font-family: clash display;
+        margin-top: 51px;
+        border: none;
+        width: 725px;
+        height: 80px;
+        background: #F9B70B;
+        border-radius: 10px;
+        font-weight: 500;
+        font-size: 39px;
+        line-height: 30px;
+        color: #000000;
+    }
+
+    .already {
+        margin-top: 40px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .new {
+        width: 74%;
+        margin: 0 auto;
+    }
+}
+
+/*.wrapper{*/
+/*    position: relative;*/
+/*}*/
+
+/*.wrapper input  {*/
+/*    width: 350px;*/
+/*    height: 50px;*/
+/*    padding: 0 15px;*/
+/*    outline: none;*/
+/*    font-size: 16px;*/
+/*    color: gray;*/
+/*    border-radius: 10px;*/
+/*    border: 2px solid #333;*/
+/*}*/
+
+/*.wrapper label{*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 5%;*/
+/*    transform:translateY(-50%);*/
+/*    color: gray;*/
+/*    font-size: 25px;*/
+/*    padding: 0 5px;*/
+/*    pointer-events: none;*/
+/*    transition: 0.5s;*/
+/*}*/
+
+/*.wrapper input:focus ~ label,*/
+/*.wrapper input:valid ~ label{*/
+/*    top: 0;*/
+/*    color: blue;*/
+/*    background-color: white;*/
+/*    font-size: 25px;*/
+/*}*/
+
+/*.wrapper input:focus,*/
+/*.wrapper input:valid{*/
+/*    border: 2px solid #18189c;*/
+/*}*/
+
+.wrapper {
+    position: relative;
+    font-family: Poppins, Poppins;
+
+}
+
+.wrapper input {
+    /*width: 100%;*/
+    width: 232.36px;
+    height: 56px;
+    padding: 0 15px;
+    outline: none;
+    font-size: 16px;
+    color: #959292;
+    border-radius: 10px;
+    border: 2px solid #333;
+}
+
+.wrapper label {
+    position: absolute;
+    top: 50%;
+    /*left: 5%;*/
+    transform: translateY(-50%);
+    color: #959292;
+    font-size: 15px;
+    padding: 0 5px;
+    pointer-events: none;
+    transition: 0.5s;
+    left: 4%;
+}
+
+.wrapper input:focus ~ label,
+.wrapper input:valid ~ label{
+    top: 0;
+    color: #F9B70B;
+    background-color: white;
+    font-size: 12px;
+    left: 4%;
+}
+
+.wrapper input:focus,
+.wrapper input:valid{
+    border: 2px solid #F9B70B;
+}
+
+
