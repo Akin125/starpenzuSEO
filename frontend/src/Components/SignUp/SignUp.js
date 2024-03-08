@@ -5,9 +5,9 @@ import NavBar from '../Navbar/NavBar';
 import SignInButton from './SignInbutton';
 import './SignUp.css';
 import DoneCompo from "./doneCompo";
-import AxiosWithAuth from './AxiosWithAuth'
+// import AxiosWithAuth from './AxiosWithAuth'
 import {Helmet} from "react-helmet-async";
-let formData = new FormData();
+// let formData = new FormData();
 
 
 
@@ -56,24 +56,24 @@ export default function SignUp() {
         confirmPassword: useRef(null),
     });
 
-    const clearCookies = () => {
-
-        const csrfTokenCookie = document.cookie.split(';').find(cookie => cookie.trim().startsWith('csrftoken='));
-
-        if (csrfTokenCookie) {
-            document.cookie = "csrftoken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=starpenzu.tech; path=/;";
-
-        }
-
-        const sessionIdCookie = document.cookie.split(';').find(cookie => cookie.trim().startsWith('sessionid='));
-        if (sessionIdCookie) {
-
-            document.cookie = "sessionid=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=starpenzu.tech; path=/;";
-        }
-
-
-
-    }
+    // const clearCookies = () => {
+    //
+    //     const csrfTokenCookie = document.cookie.split(';').find(cookie => cookie.trim().startsWith('csrftoken='));
+    //
+    //     if (csrfTokenCookie) {
+    //         document.cookie = "csrftoken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=starpenzu.tech; path=/;";
+    //
+    //     }
+    //
+    //     const sessionIdCookie = document.cookie.split(';').find(cookie => cookie.trim().startsWith('sessionid='));
+    //     if (sessionIdCookie) {
+    //
+    //         document.cookie = "sessionid=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=starpenzu.tech; path=/;";
+    //     }
+    //
+    //
+    //
+    // }
 
 
 
@@ -177,6 +177,7 @@ export default function SignUp() {
             // navigate('/Login')
           // uploadData();
           // SendToAPI();
+            setLoading(true)
             setDone(true)
         }
     }
@@ -266,6 +267,7 @@ export default function SignUp() {
         event.preventDefault();
         // Add your form submission logic here
         passwordValidation();
+        setHandleErrror('')
 
     };
 
@@ -285,8 +287,8 @@ export default function SignUp() {
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://yourwebsite.com" />
                 <meta property="og:image" content="https://example.com/image.jpg" />
-                <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Your Website Title" />
+                <meta name="twitter:card" content="Starpenzu" />
+                <meta name="twitter:title" content="Starpenzu" />
                 <meta
                     name="twitter:description"
                     content="Embark on a coding journey with our premier programming courses! From Python to JavaScript, level up your skills with expert-led tutorials and hands-on projects."

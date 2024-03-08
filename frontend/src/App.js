@@ -28,7 +28,7 @@ import FRONTENDData from './Components/CoursesPageALL/Frontend/accordionData';
 
 function App() {
 
-    const entToken = localStorage.getItem('ent');
+    // const entToken = localStorage.getItem('ent');
     // const checkLocalStorage = localStorage.getItem("ent");
     // const isAuthenticated = entToken === 'true' ? true : false//checkLocalStorage === null || checkLocalStorage === "";
 
