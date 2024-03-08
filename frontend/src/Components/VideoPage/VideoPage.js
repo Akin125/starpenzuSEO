@@ -4,7 +4,7 @@ import './VideoPageStyle.css'
 import Footer from "../Footer/Footer";
 import {useLocation, useParams} from "react-router-dom";
 import ReactPlayer from "react-player";
-import accordionData from "../CoursesPageALL/Django/accordionData";
+// import accordionData from "../CoursesPageALL/Django/accordionData";
 
 
 export default function VideoPage(){
