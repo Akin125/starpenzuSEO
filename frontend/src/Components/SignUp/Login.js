@@ -4,9 +4,9 @@ import Footer from '../Footer/Footer';
 import NavBar from '../Navbar/NavBar';
 import SignInButton from './SignInbutton';
 import './SignUp.css';
-import AxiosWithAuth from './AxiosWithAuth'
+// import AxiosWithAuth from './AxiosWithAuth'
 import { useNavigate } from "react-router-dom";
-import { encrypt } from  '../Security'
+// import { encrypt } from  '../Security'
 import {Helmet} from "react-helmet-async";
 
 export const clearCookies = () => {
@@ -98,7 +98,7 @@ export default function Login (){
         //     setLoading(false)
         // }
         localStorage.setItem("ent", 'true');
-
+        setErrorMessage("Invalid credentials. Please try again.");
         navigate("/");
 
 

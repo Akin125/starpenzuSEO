@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import accordionData from "../Django/accordionData";
+
 
 
 export default function CoursesPageContentProps({ courses }) {
@@ -17,9 +17,9 @@ export default function CoursesPageContentProps({ courses }) {
         });
     }
 
-    function takeIndex (){
-
-    }
+    // function takeIndex (){
+    //
+    // }
 
     return (
         <>

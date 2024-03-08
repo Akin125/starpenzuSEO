@@ -203,7 +203,7 @@ export default function  DashBoard (){
         };
 
         fetchNotification();
-    }, [myCourses, notification]);
+    }, [myCourses, notification, email]);
 
 
     // Reverse the order of the messages

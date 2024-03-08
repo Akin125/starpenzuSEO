@@ -12,7 +12,7 @@ let formData = new FormData();
 
 
 export default function SignUp() {
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     const[visible, setVisible] = useState(false)
     const[uppercase, setUpperCase]= useState(true)
@@ -182,16 +182,16 @@ export default function SignUp() {
     }
 
 
-    function uploadData (){
-
-        formData.append("name", name);
-        formData.append("email", email);
-        formData.append("password", password);
-        formData.append("username", username)
-        formData.append("date_of_birth", date_of_birth);
-        formData.append("gender", gender);
-        formData.append("whatsapp_number", whatsapp_number);
-    }
+    // function uploadData (){
+    //
+    //     formData.append("name", name);
+    //     formData.append("email", email);
+    //     formData.append("password", password);
+    //     formData.append("username", username)
+    //     formData.append("date_of_birth", date_of_birth);
+    //     formData.append("gender", gender);
+    //     formData.append("whatsapp_number", whatsapp_number);
+    // }
 
 
     function handleGenderDropDown (){
@@ -218,48 +218,48 @@ export default function SignUp() {
         }
     }
 
-    function SendToAPI (){
-        const storedName = localStorage.getItem("fullname");
-        const storedUsername = localStorage.getItem("username");
-        const storedDOB = localStorage.getItem("DOB");
-        const storedGender = localStorage.getItem("gender");
-        const storedWhatsappNum = localStorage.getItem("whatsappNum");
-        const storedEmail = localStorage.getItem("email");
-
-
-        clearCookies();
-        setLoading(true)
-
-
-        if(storedName && storedUsername && storedDOB && storedGender && storedWhatsappNum && storedEmail){
-            AxiosWithAuth.post('user/create/', formData, {
-                headers: {
-                    "Content-Type": "multipart/form-data",
-                },
-            })
-                .then((response) => {
-                    console.log(response.data);
-                    if (response.status === 200 || response.status === 201) {
-                        console.log("response 200");
-                        setDone(true)
-
-                    } else {
-                        console.log("An error occurred while uploading user data. Please try again.");
-
-                    }
-                })
-                .catch((error) => {
-                    console.log(error);
-                    setHandleErrror("An error occurred while uploading user data. Please try again.");
-                })
-                .finally(() => setLoading(false));
-
-        }else {
-            console.log('wahala')
-
-        }
-
-    }
+    // function SendToAPI (){
+    //     const storedName = localStorage.getItem("fullname");
+    //     const storedUsername = localStorage.getItem("username");
+    //     const storedDOB = localStorage.getItem("DOB");
+    //     const storedGender = localStorage.getItem("gender");
+    //     const storedWhatsappNum = localStorage.getItem("whatsappNum");
+    //     const storedEmail = localStorage.getItem("email");
+    //
+    //
+    //     clearCookies();
+    //     setLoading(true)
+    //
+    //
+    //     if(storedName && storedUsername && storedDOB && storedGender && storedWhatsappNum && storedEmail){
+    //         AxiosWithAuth.post('user/create/', formData, {
+    //             headers: {
+    //                 "Content-Type": "multipart/form-data",
+    //             },
+    //         })
+    //             .then((response) => {
+    //                 console.log(response.data);
+    //                 if (response.status === 200 || response.status === 201) {
+    //                     console.log("response 200");
+    //                     setDone(true)
+    //
+    //                 } else {
+    //                     console.log("An error occurred while uploading user data. Please try again.");
+    //
+    //                 }
+    //             })
+    //             .catch((error) => {
+    //                 console.log(error);
+    //                 setHandleErrror("An error occurred while uploading user data. Please try again.");
+    //             })
+    //             .finally(() => setLoading(false));
+    //
+    //     }else {
+    //         console.log('wahala')
+    //
+    //     }
+    //
+    // }
 
 
     const handleSubmit = (event) => {

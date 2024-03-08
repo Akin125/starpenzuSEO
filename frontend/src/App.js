@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import "./index.css";
 import SignUp from "../src/Components/SignUp/SignUp";
@@ -22,7 +22,6 @@ import HelpSupport from "./Components/PolicyPage/HelpSupport";
 import UIUXData from './Components/CoursesPageALL/UIUX/accordionData';
 import DJANGOData from './Components/CoursesPageALL/Django/accordionData';
 import FRONTENDData from './Components/CoursesPageALL/Frontend/accordionData';
-import {decrypt} from "./Components/Security";
 
 
 
@@ -31,7 +30,7 @@ function App() {
 
     const entToken = localStorage.getItem('ent');
     // const checkLocalStorage = localStorage.getItem("ent");
-    const isAuthenticated = entToken === 'true' ? true : false//checkLocalStorage === null || checkLocalStorage === "";
+    // const isAuthenticated = entToken === 'true' ? true : false//checkLocalStorage === null || checkLocalStorage === "";
 
     return (
         <Router>

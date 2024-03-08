@@ -3,7 +3,7 @@ import CoursesPageHeaderProps from '../CourseProps/CoursesPageHeaderProps';
 import CoursesPageBodyProps from '../CourseProps/CoursesPageBodyProps';
 import '../CoursesPageALL.css';
 import NavBar from '../../Navbar/NavBar';
-import CoursesPageContent from '../CourseProps/CoursesPageContentProps';
+
 import Footer from '../../Footer/Footer';
 import accordionData from './accordionData';
 

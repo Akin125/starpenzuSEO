@@ -87,7 +87,7 @@ export default function MyNotification (){
         };
 
         fetchNotification();
-    }, []);
+    }, [email]);
 
 
     // Reverse the order of the messages
