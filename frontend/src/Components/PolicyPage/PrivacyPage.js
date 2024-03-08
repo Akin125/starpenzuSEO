@@ -31,7 +31,7 @@ export default function PrivacyPage(){
                     property="og:description"
                     content="Embark on a coding journey with our premier programming courses! From Python to JavaScript, level up your skills with expert-led tutorials and hands-on projects."
                 />
-                <link rel="canonical" href="/"/>
+                <link rel="canonical" href="https://main--starpenzu-seo.netlify.app/privacypage"/>
 
             </Helmet>
 

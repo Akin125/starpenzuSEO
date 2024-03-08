@@ -1,6 +1,7 @@
-https://65e798a9346bf977e1af399c--cozy-youtiao-7286c6.netlify.app/
-https://65e798a9346bf977e1af399c--cozy-youtiao-7286c6.netlify.app/Login
-https://65e798a9346bf977e1af399c--cozy-youtiao-7286c6.netlify.app/signup
-https://65e798a9346bf977e1af399c--cozy-youtiao-7286c6.netlify.app/privacypage
-https://65e798a9346bf977e1af399c--cozy-youtiao-7286c6.netlify.app/aboutuspage
-https://65e798a9346bf977e1af399c--cozy-youtiao-7286c6.netlify.app/helpSupportpage
+https://main--starpenzu-seo.netlify.app/
+https://main--starpenzu-seo.netlify.app/Login
+https://main--starpenzu-seo.netlify.app/signup
+https://main--starpenzu-seo.netlify.app/privacypage
+https://main--starpenzu-seo.netlify.app/aboutuspage
+https://main--starpenzu-seo.netlify.app/helpSupportpage
+https://main--starpenzu-seo.netlify.app/passwordreset
