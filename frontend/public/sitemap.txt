@@ -1,7 +1,0 @@
-https://main--starpenzu-seo.netlify.app/
-https://main--starpenzu-seo.netlify.app/Login
-https://main--starpenzu-seo.netlify.app/signup
-https://main--starpenzu-seo.netlify.app/privacypage
-https://main--starpenzu-seo.netlify.app/aboutuspage
-https://main--starpenzu-seo.netlify.app/helpSupportpage
-https://main--starpenzu-seo.netlify.app/passwordreset
