@@ -6,7 +6,8 @@ const traverse = require('@babel/traverse').default;
 
 // Read the contents of your App.js file
 const appJsCode = fs.readFileSync('./src/App.js', 'utf-8');
-
+const stats = fs.statSync('./src/App.js');
+const lastModified = stats.mtime.toISOString();
 // Parse the code using babel-parser
 const ast = parser.parse(appJsCode, {
     sourceType: 'module',
@@ -23,7 +24,7 @@ traverse(ast, {
                 attribute => attribute.name.name === 'path'
             );
             if (pathAttribute) {
-                routes.push({ url: pathAttribute.value.value , changefreq: 'daily', priority: 1.0 });
+                routes.push({ url: pathAttribute.value.value , changefreq: 'daily', priority: 1.0, lastmod: lastModified });
             }
         }
     },
