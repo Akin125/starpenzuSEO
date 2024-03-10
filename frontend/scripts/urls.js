@@ -8,7 +8,7 @@ module.exports = [
   "https://starpenzu-seo.netlify.app/aboutuspage",
   "https://starpenzu-seo.netlify.app/helpSupportpage",
   "https://starpenzu-seo.netlify.app/passwordreset",
-  "https://starpenzu-seo.netlify.app/videopage/:videoId",
+  "https://starpenzu-seo.netlify.app/video/:videoId/:videoTitle",
   "https://starpenzu-seo.netlify.app/createpassword/:uidb64/:token",
   "https://starpenzu-seo.netlify.app/coursespageuiux",
   "https://starpenzu-seo.netlify.app/coursespagedjango",
