@@ -27,7 +27,7 @@ axios.post(Uploadurl, data, {
     }
 })
     .then(response => {
-        console.log('Response:', response.status);
+        console.log('Response:', response.statusText);
     })
     .catch(error => {
         console.error('Error:', error);

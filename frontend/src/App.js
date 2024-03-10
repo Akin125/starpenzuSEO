@@ -44,7 +44,7 @@ function App() {
                 <Route exact path="/aboutuspage" element={<AboutUs />} />
                 <Route exact path="/helpSupportpage" element={<HelpSupport />} />
                 <Route exact path="/passwordreset" element={<PasswordReset />} />
-                <Route exact path="/videopage/:videoId" element={<VideoPage />} />
+                <Route exact path="/video/:videoId/:videoTitle" element={<VideoPage />} />
                 <Route
                     exact
                     path="/createpassword/:uidb64/:token"
