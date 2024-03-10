@@ -15,6 +15,7 @@ const ast = parser.parse(appJsCode, {
 });
 
 const routes = [];
+const Indexroutes = [];
 
 // Traverse the AST to find Route components and extract their paths
 traverse(ast, {
@@ -27,8 +28,37 @@ traverse(ast, {
                 routes.push({ url: pathAttribute.value.value , changefreq: 'daily', priority: 1.0, lastmod: lastModified });
             }
         }
+
     },
 });
+const  BASE_URL = 'https://starpenzu-seo.netlify.app';
+
+
+traverse(ast, {
+    JSXOpeningElement(path) {
+        if (path.node.name.name === 'Route') {
+            const pathAttribute = path.node.attributes.find(
+                attribute => attribute.name.name === 'path'
+            );
+            if (pathAttribute) {
+                Indexroutes.push(BASE_URL+pathAttribute.value.value);
+            }
+        }
+
+    },
+});
+
+const urls = eval(Indexroutes);
+
+// Generate JavaScript code for exporting the URLs
+const jsCode = `module.exports = ${JSON.stringify(urls, null, 2)};`;
+
+// Write the JavaScript code to a file named 'urls.js'
+fs.writeFileSync('scripts/urls.js', jsCode);
+
+console.log('URLs extracted and written to urls.js successfully!');
+
+
 const { SitemapStream, streamToPromise } = require('sitemap');
 const { createReadStream, createWriteStream } = require('fs');
 const { Readable } = require('stream');
@@ -48,6 +78,8 @@ sitemap.pipe(writeStream);
 
 // Log success message
 writeStream.on('finish', () => {
-    console.log('Sitemap generated successfully!', routes);
+    console.log('Sitemap generated successfully!');
 
 });
+
+

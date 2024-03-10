@@ -34,7 +34,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "generate-sitemap": "node scripts/generate-sitemap.js",
-    "Push": "push.sh"
+    "Push": "push.sh",
+    "Run-Api": "node scripts/makeAPICall.js"
   },
   "eslintConfig": {
     "extends": [

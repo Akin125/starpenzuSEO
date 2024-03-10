@@ -22,7 +22,7 @@ export default function Home (){
                 />
                 <meta property="og:title" content="Starpenzu" />
 
-                <meta name="keywords" content="Programming, CodingCourses, TechEducation" />
+                <meta name="keywords" content="Programming, CodingCourses, TechEducation, tech, computer programming courses" />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://yourwebsite.com" />
                 <meta property="og:image" content="https://example.com/image.jpg" />
