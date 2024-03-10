@@ -8,6 +8,7 @@ import {Link,  useParams} from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import AxiosWithAuth from "./AxiosWithAuth";
 import DoneCompo from "./doneCompo";
+import {Helmet} from "react-helmet-async";
 
 
 
@@ -123,6 +124,34 @@ import DoneCompo from "./doneCompo";
 
     return(
         <>
+            <Helmet>
+                <title>Reset Password</title>
+                <meta
+                    name='description'
+                    content='Unlock your potential with our programming courses. From beginner to advanced levels, master the art of programming with our expert-led courses.'
+                />
+                <meta property="og:title" content="Starpenzu" />
+
+                <meta name="keywords" content="Programming, CodingCourses, TechEducation, tech, computer programming courses" />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://yourwebsite.com" />
+                <meta property="og:image" content="https://example.com/image.jpg" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Your Website Title" />
+                <meta
+                    name="twitter:description"
+                    content="Embark on a coding journey with our premier programming courses! From Python to JavaScript, level up your skills with expert-led tutorials and hands-on projects."
+                />
+                <meta name="twitter:image" content="https://example.com/image.jpg" />
+                <meta name="twitter:site" content="@yourtwitterhandle" />
+                <meta
+                    property="og:description"
+                    content="Embark on a coding journey with our premier programming courses! From Python to JavaScript, level up your skills with expert-led tutorials and hands-on projects."
+                />
+                <link rel="canonical" href="https://starpenzu-seo.netlify.app/createpassword/:uidb64/:token"/>
+
+            </Helmet>
+
 
             {done && (<div className="overLaySignUp">
                 <div className="blackbg">
