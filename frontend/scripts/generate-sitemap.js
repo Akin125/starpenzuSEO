@@ -33,7 +33,7 @@ const { SitemapStream, streamToPromise } = require('sitemap');
 const { createReadStream, createWriteStream } = require('fs');
 const { Readable } = require('stream');
 
-const sitemap = new SitemapStream({ hostname: 'https://main--starpenzu-seo.netlify.app' });
+const sitemap = new SitemapStream({ hostname: 'https://starpenzu-seo.netlify.app/' });
 
 // Add routes to the sitemap
 routes.forEach(route => {

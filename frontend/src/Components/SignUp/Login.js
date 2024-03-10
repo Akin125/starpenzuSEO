@@ -143,7 +143,7 @@ export default function Login (){
                     property="og:description"
                     content="Embark on a coding journey with our premier programming courses! From Python to JavaScript, level up your skills with expert-led tutorials and hands-on projects."
                 />
-                <link rel="canonical" href="https://main--starpenzu-seo.netlify.app/Login"/>
+                <link rel="canonical" href="https://starpenzu-seo.netlify.app/Login"/>
             </Helmet>
             <NavBar/>
         <div className="signup">

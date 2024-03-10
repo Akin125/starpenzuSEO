@@ -1,16 +1,18 @@
 import React from 'react'
+import {Link} from "react-router-dom";
 
 
 export default function Hero(){
     return(
         <div className="hero">
             <div className="hero2">
+                <Link class='stop' to='/LandingPage'>
                 <h1 className="heroText">
                     Grow Your Career!<br/>
                     Start Learning With<br/>
                      Starpenzu Tech<br/>
                      Academy.
-                </h1>
+                </h1> </Link>
 
                 <div className="heroImg">
                     <img src="https://res.cloudinary.com/do5wu6ikf/image/upload/v1684031978/starpenzu/hhh_bpjcsf.png" alt="heroimages"/>

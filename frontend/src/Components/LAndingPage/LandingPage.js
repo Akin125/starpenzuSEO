@@ -68,7 +68,7 @@ export default function LandingPage(){
                     name='description'
                     content='Unlock your potential with our programming courses. From beginner to advanced levels, master the art of programming with our expert-led courses.'
                 />
-                <link rel="canonical" href="/LandingPage"/>
+                <link rel="canonical" href="https://starpenzu-seo.netlify.app/LandingPage"/>
             </Helmet>
             <NavBar/>
             <div className="landPageContainer">
