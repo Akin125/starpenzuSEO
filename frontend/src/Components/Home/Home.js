@@ -22,7 +22,7 @@ export default function Home (){
                 />
                 <meta property="og:title" content="Starpenzu" />
 
-                <meta name="keywords" content="Programming, CodingCourses, TechEducation, tech, computer programming courses, Starpenzu Tech Academy" />
+                <meta name="keywords" content="OdediranPhilipOluseyi, Odediran Philip Oluseyi, Prez, Stalliongfx125, Programming, CodingCourses, TechEducation, tech, computer programming courses, Starpenzu Tech Academy" />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://yourwebsite.com" />
                 <meta property="og:image" content="https://example.com/image.jpg" />
